@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType("allone-ir-in",{
+        category: 'input',
+        color: '#E9967A',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:0,
+        outputs:1,
+        icon: "bridge.png",
+        label: function() {
+            return "Orvibo IR";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="allone-ir-in">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="allone-ir-in">
+    <p>A simple node that converts the message payloads into all lower-case characters</p>
+</script>
