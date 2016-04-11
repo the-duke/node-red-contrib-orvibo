@@ -1,0 +1,32 @@
+{
+  "name": "node-red-node-orvibo",
+  "version": "1.0.0",
+  "description": "A collection of Node-RED nodes to send and receive home automation commands and data using an Orvibo Allone WiFi smart remote remote home automation controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-duke/node-red-node-orvibo.git"
+  },
+  "keywords": [
+    "node-red",
+    "orvibo",
+    "openhab",
+    "ir",
+    "rf",
+    "smarthub",
+    "home",
+    "automation"
+  ],
+  "author": "Thomas Herzog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-duke/node-red-node-orvibo/issues"
+  },
+  "homepage": "https://github.com/the-duke/node-red-node-orvibo#readme",
+  "dependencies": {
+    "node-orvibo": "^1.1.0"
+  }
+}
