@@ -1,4 +1,4 @@
-node-red-node-orvibo
+node-red-contrib-orvibo
 ========================
 
 A collection of <a href="http://nodered.org" target="_new">Node-RED</a> nodes to send and receive home automation
@@ -12,11 +12,11 @@ Install
 Use npm to install this package locally in the Node-RED data directory (by default, `$HOME/.node-red`):
 
 	cd $HOME/.node-red
-	npm install node-red-node-orvibo
+	npm install node-red-contrib-orvibo
 
 Alternatively, it can be installed globally:
 
-    npm install -g node-red-node-orvibo
+    npm install -g node-red-contrib-orvibo
 
 The nodes will be added to the palette the next time node-RED is started.
 
