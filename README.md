@@ -23,6 +23,6 @@ The nodes will be added to the palette the next time node-RED is started.
 Nodes included in the package
 -----------------------------
 
-**orvibo-allone-ir-in** Receives IR messages from 'allone' devices such as remote controls
+**allone-ir-in** Receives IR messages from 'allone' devices such as remote controls
 
-**orvibo-allone-ir-out** Sends messages to 'allone' devices to emits IR commands. Use this node to control IR receivers.
+**allone-ir-out** Sends messages to 'allone' devices to emits IR commands. Use this node to control IR receivers.

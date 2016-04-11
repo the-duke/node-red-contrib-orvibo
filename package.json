@@ -20,6 +20,12 @@
     "home",
     "automation"
   ],
+  "node-red" : {
+        "nodes": {
+            "allone-ir-in": "allone-ir-in/sample.js",
+            "allone-ir-out": "allone-ir-out/sample.js"
+        }
+  }
   "author": "Thomas Herzog",
   "license": "ISC",
   "bugs": {
